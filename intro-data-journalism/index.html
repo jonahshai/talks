@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Data Journalism</title>
+		<link rel="icon" type="image/png" href="/favicon.png">
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h2>A (brief) introduction to data journalism</h2>
+					<br>
+					<h4>Jonah Newman | The Chicago Reporter</h4>
+					<small>Twitter: <a href="https://twitter.com/jonahshai" target="_blank">@jonahshai</a><br>Website: <a href="http://chicagoreporter.com" target="_blank">chicagoreporter.com</a><br>Slides: <a href = "http://www.jonahnewman.com/talks/intro-data-journalism">jonahnewman.com/talks</a>
+					</small>
+					<aside class="notes">
+						Cmd + Shift + F (Presentation mode)
+						<br>
+						What is data journalism?
+						<br>
+						Why do you think data journalism is important? Why did you sign up for this class?
+                    </aside>
+				</section>
+
+				<section>
+					<section>
+						<h2>What is a data story?</h2>
+						<aside class="notes">
+						</aside>
+					</section>
+					<section>
+						<h3>Like all good reporting, a good data story starts with a good question</h3>
+					</section>
+					<section>
+						<ul>
+							<span class = "fragment"><li>How many people in Chicago live in poverty?</li></span>
+							<span class = "fragment"><li>How much money does the city spend on police misconduct lawsuits?</li></span>
+							<span class = "fragment"><li>How many police officers are in CPD's Early Intervention System</li></span>
+							<span class = "fragment"><li>What percentage of stops made by University of Chicago Police are of African-Americans?</li></span>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Where can I find the data?</h2>
+					</section>
+					<section>
+						<ul>
+							<span class = "fragment"><li>How many people in Chicago live in poverty?</li></span>
+								<ul>
+									<span class = "fragment"><li><a href = "http://censusreporter.org/" target = "_blank">Census</a></li></span>
+								</ul>
+							<span class = "fragment"><li>How much money does the city spend on police misconduct lawsuits?</li></span>
+								<ul>
+									<span class = "fragment"><li><a href = "http://www.cityofchicago.org/city/en/depts/dol.html" target = "_blank">City data</a></li></span>
+								</ul>
+							<span class = "fragment"><li>How many police officers are in CPD's Early Intervention System</li></span>
+								<ul>
+									<span class = "fragment"><li><a href = "http://www.cityofchicago.org/city/en/narr/foia/foia_contacts.html" target = "_blank">Freedom of Information Act</a></li></span>
+								</ul>
+							<span class = "fragment"><li>What percentage of stops made by University of Chicago Police are of African-Americans?</li></span>
+								<ul>
+									<span class = "fragment"><li><a href = "https://incidentreports.uchicago.edu/fieldInterviewsArchive.php" target = "_blank">Website</a></li></span>
+								</ul>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Example #1:</h2>
+						<p>How many police officers are in CPD's Early Intervention System?</p> 
+					</section>
+					<section>
+						<span class = "fragment"><h3>How you ask can make a difference</h3>
+						<span class = "fragment"><p>First request:</p>
+							<p>"Records sufficient to show the number of sworn personnel who were placed into the Behavioral Intervention System and Personnel Concerns programs, by year, from 2011 to 2015 (to date)."</p>
+						</span>
+					</section>
+					<section>
+						<span class = "fragment"><p>Second request:</p>
+							<p>"Names and badge numbers of all officers enrolled in the Behavioral Intervention System and Personnel Concerns programs"</p>
+						</span>
+						<span class = "fragment"><p>Response:</p>
+							<img src = "img/bis.jpg">
+						</span>
+					</section>
+					<section>
+						<span class = "fragment"><h3>FOIA Tips:</h3></span>
+						<ul>	
+							<span class = "fragment"><li>It's important to ask in the right way</li></span>
+							<span class = "fragment"><li>Sometimes it helps to pick up the phone</li></span>
+							<span class = "fragment"><li>Be patient, but persistent</li></span>
+						</ul>
+					</section>
+					<section>
+						<h3>Story</h3>
+						<a href = "http://chicagoreporter.com/program-that-flags-chicago-cops-at-risk-of-misconduct-misses-most-officers/" target = "_blank"><img src = "img/earlyintervention.png"></a>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2>Example #2:</h2>
+						<p>What percentage of stops made by University of Chicago Police are of African-Americans?</p> 
+					</section>
+					<section>
+						<span class = "fragment"><h3>When the data you want are harder to get</h3></span>
+						<span class = "fragment"><p><a href = "https://incidentreports.uchicago.edu/fieldInterviewsArchive.php" target = "_blank">University of Chicago stops data</a></p></span>
+					</section>
+					<section>
+						<p>Coding can come in handy</p>
+						<img src = "img/R.png">
+					</section>
+					<section>
+						<h3>Tips:</h3>
+						<ul><span class = "fragment"><li>There's always more than one way to do something</li></span>
+						<span class = "fragment"><li>Use a project to try to learn a new tool</li></span>
+						<span class = "fragment"><li>Join the <a href = "https://www.ire.org/resource-center/listservs/subscribe-nicar-l/" target = "_blank">NICAR listserv</a></li></span>
+						</ul>
+					</section>
+					<section>
+
+					</section>
+					<section>
+						<h3>Story</h3>
+						<a href = "http://chicagoreporter.com/new-data-supports-old-accusations-of-racial-profiling-by-university-of-chicago-police-department/" target = "_blank"><img src = "img/ucpd.png"></a>
+					</section>
+				</section>
+				<section>
+						<h3>More Tips:</h3>
+						<ul>
+							<span class = "fragment"><li>Data analysis doesn't have to be complicated</li></span>
+							<span class = "fragment"><li>All data are subjective</li></span>
+							<span class = "fragment"><li>Data should not stand alone: Provide context, use experts to interpret, give caveats</li></span>
+						</ul>
+				</section>
+				<section>
+					<section>
+						<span class = "fragment"><h3>Some useful links</h3></span>
+						<ul><span class = "fragment"><li>Census</li>
+							<ul>
+								<li><a href = "http://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml" target = "_blank">American Factfinder</a></li>
+								<li><a href = "http://censusreporter.org/" target = "_blank">Census Reporter</a></li>
+							</ul></span>
+							<span class = "fragment"><li>FOIA</il>
+								<ul>
+									<li><a href = "http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=85" target = "_blank">Illinois Freedom of Information Act</a></li>
+									<li><a href = "http://www.cityofchicago.org/city/en/narr/foia/foia_contacts.html" target = "_blank">Chicago FOIA Contacts</a></li>
+									<li><a href = "https://www.justice.gov/oip/doj-guide-freedom-information-act" target = "_blank">Department of Justice FOIA Handbook</a></li>
+								</ul>
+						</ul></span>
+					</section>
+				</section>
+				<section>
+					<h2>Questions?</h2>
+					<br>
+					<br>
+					<br>
+					<h4>Email: <a href = "mailto:jnewman@chicagoreporter.com">jnewman@chicagoreporter.com</a></h4>
+					<h4>Phone: (312) 673-3807</h4>
+					<h4>Twitter: <a href = "http://twitter.com/jonahshai">@jonahshai</a></h4>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				slideNumber: false,
+				history: true,
+				center: true,
+				touch: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+	</body>
+</html>
